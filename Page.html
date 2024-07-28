@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma clone</title>
+    <link rel="stylesheet" href="s.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li class="contact-us"><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="hero">
+    <h1>Make your home an ode to joy</h1>
+    <p>We turn your empty house to a lovely <span class="highlight">Fill x Hug</span>. The compact spaces with space saving furnitures. Making the unique tastes of yours into reality!</p>
+  </section>
+  
+  <section class="image-banner">
+    <img src="/Tech team.jpg" alt="Home interior" width="1140px" height="640px">
+  </section>
+  <section class="about-us">
+    <div class="content">
+      <div class="text">
+        <h3>About Us</h3>
+        <h1>We help to bring your <span class="italic">dream home</span> to reality</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus fringilla dui amet faucibus nam. Erat id laoreet posuere etiam morbi.</p>
+        <p>Tempor dolor elementum tellus non ipsum faucibus. Justo, magna mauris posuere auctor justo. Habitanti proin aliquet volutpat leo ultricies. Dui blandit eget vitae turpis ultrices aliquet nunc. Faucibus sit odio bibendum lobortis diam.</p>
+      </div>
+      <div class="images">
+        <style>
+            img{
+              top: 10px;
+              right: 10px;
+            }
+          </style>
+          
+          <div class="images">
+            <img src="/tech team 2.jpg" alt="Interior Design 1" width="608px" height="560px" class="fixed-element">
+          </div>
+              
+    </div>
+    </div>
+  </section>
+  <footer>
+    <div class="awards">
+      <div class="award-item">
+        <span class="award-title">German Design Award</span>
+        <span class="award-year">2021</span>
+      </div>
+      <div class="award-item">
+        <span class="award-title">Gold A' Design Award</span>
+        <span class="award-year">2021</span>
+      </div>
+      <div class="award-item">
+        <span class="award-title">IF Design Award</span>
+        <span class="award-year">2020</span>
+      </div>
+      <div class="award-item">
+        <span class="award-title">Good Design Award</span>
+        <span class="award-year">2019</span>
+      </div>
+    </div>
+  </footer>
+  <div class="container">
+    <div class="header">
+        <h2>Our Services</h2>
+        <h1>We provide the <span class="highlight">best solutions</span> for your dream home</h1>
+    </div>
+    <div class="services">
+        <div class="service">
+            <div class="service-icon">🏢</div>
+            <h3>Architectural & Interior Design</h3>
+            <p>Non diam pretium tristique augue placerat dolor. Accumsan nibh nunc, molestie volutpat ipsum, ultricies.</p>
+        </div>
+        <div class="service">
+            <div class="service-icon">🏗️</div>
+            <h3>Building Renovation</h3>
+            <p>Non diam pretium tristique augue placerat dolor. Accumsan nibh nunc, molestie volutpat ipsum, ultricies.</p>
+        </div>
+        <div class="service">
+            <div class="service-icon">🛠️</div>
+            <h3>Construction Management</h3>
+            <p>Non diam pretium tristique augue placerat dolor. Accumsan nibh nunc, molestie volutpat ipsum, ultricies.</p>
+        </div>
+    </div>
+</div>
+<section class="recent-works">
+    <h2>Some of <span>our crafts</span> made with love</h2>
+    <div class="works-container">
+        <div class="work-item">
+            <img src="img1.jpg" alt="Villa Furnishing & Interior">
+            <h3>Villa Furnishing & Interior</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus fringilla dui amet faucibus nam. Erat id laoreet posuere etiam morbi.</p>
+        </div>
+        <div class="work-item">
+            <img src="img2.jpg" alt="Luxury Hotel Renovation">
+            <h3>Luxury Hotel Renovation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus fringilla dui amet faucibus nam.</p>
+        </div>
+        <div class="work-item">
+            <img src="img3.jpg" alt="Residence Swimming Pool">
+            <h3>Residence Swimming Pool</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus fringilla dui amet faucibus nam.</p>
+        </div>
+    </div>
+    <a href="#" class="contact-us">Contact Us</a>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .recent-works {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fff;
+        }
+
+        .recent-works h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .recent-works h2 span {
+            font-weight: bold;
+        }
+
+        .works-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .work-item {
+            flex: 1 1 300px;
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .work-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .work-item h3 {
+            font-size: 1.5em;
+            margin: 15px 20px 10px;
+        }
+
+        .work-item p {
+            font-size: 1em;
+            margin: 0 20px 20px;
+            color: #555;
+        }
+
+        .contact-us {
+            display: inline-block;
+            margin: 30px auto;
+            padding: 10px 30px;
+            background-color: #6c63ff;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 1em;
+        }
+
+        .contact-us:hover {
+            background-color: #5753c9;
+        }
+
+        .footer {
+            max-width: 1200px;
+            margin: 40px auto 0;
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .footer .contact-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px 0;
+        }
+
+        .footer .contact-info div {
+            flex: 1 1 300px;
+            text-align: left;
+            padding: 10px;
+        }
+
+        .footer .contact-info h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .footer .contact-info a {
+            color: #c77c4e;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        .footer .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .footer .contact-info p {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .footer .footer-bottom {
+            border-top: 1px solid #e0e0e0;
+            padding-top: 10px;
+            color: #888;
+        }
+
+        .footer .social-icons {
+            margin-top: 10px;
+        }
+
+        .footer .social-icons a {
+            margin: 0 5px;
+            color: #888;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        .footer .social-icons a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <section class="recent-works">
+        <h2>Some of <span>our crafts</span> made with love</h2>
+        <div class="works-container">
+            <div class="work-item">
+                <img src="villa.jpg" alt="Villa Furnishing & Interior">
+                <h3>Villa Furnishing & Interior</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus fringilla dui amet faucibus nam. Erat id laoreet posuere etiam morbi.</p>
+            </div>
+            <div class="work-item">
+                <img src="hotel.jpg" alt="Luxury Hotel Renovation">
+                <h3>Luxury Hotel Renovation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus fringilla dui amet faucibus nam.</p>
+            </div>
+            <div class="work-item">
+                <img src="pool.jpg" alt="Residence Swimming Pool">
+                <h3>Residence Swimming Pool</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus fringilla dui amet faucibus nam.</p>
+            </div>
+        </div>
+        <a href="#" class="contact-us">Contact Us</a>
+    </section>
+
+    <footer class="footer">
+        <div class="contact-info">
+            <div>
+                <h3>Kick-start your dream home with us</h3>
+                <a href="#">Send us a hi</a>
+            </div>
+            <div>
+                <p>Brooklyn, New York</p>
+                <p>962 Fifth Avenue, Str 3rd Floor-Trump Building NY 10006, United States</p>
+                <p>Email us at <a href="mailto:hello@landify.design">hello@landify.design</a></p>
+                <p>If you're hurry, quick call for us <a href="tel:+86631250859">+8(663)125-08-59</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2022 Inteo - Award winning studio. Made with love by <a href="#">Landify</a></p>
+            <div class="social-icons">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">YouTube</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+</body>
+</html>
